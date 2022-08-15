@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<p>@_model.Amount.ToString("N")</p>
+
+<EditForm Model=@_model>
+    <FluentNumberField @bind-Value=@_model.Amount />
+    <button type="submit">Sumbit</button>
+</EditForm>
+
+@code {
+    private GenericClass _model = new();
+}
+

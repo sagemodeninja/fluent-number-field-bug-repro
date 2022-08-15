@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/garyantier/Desktop/fluent_number_field_bug_repro/fluent_number_field_bug_repro/fluent_number_field_bug_repro.csproj": {}
+  },
+  "projects": {
+    "/Users/garyantier/Desktop/fluent_number_field_bug_repro/fluent_number_field_bug_repro/fluent_number_field_bug_repro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/garyantier/Desktop/fluent_number_field_bug_repro/fluent_number_field_bug_repro/fluent_number_field_bug_repro.csproj",
+        "projectName": "fluent_number_field_bug_repro",
+        "projectPath": "/Users/garyantier/Desktop/fluent_number_field_bug_repro/fluent_number_field_bug_repro/fluent_number_field_bug_repro.csproj",
+        "packagesPath": "/Users/garyantier/.nuget/packages/",
+        "outputPath": "/Users/garyantier/Desktop/fluent_number_field_bug_repro/fluent_number_field_bug_repro/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/garyantier/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/Users/garyantier/Documents/Development/Local NuGet Packages": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/rafi-secdevops/_packaging/rafi-secdevops-artifacts/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Fast.Components.FluentUI": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
