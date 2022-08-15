@@ -197,7 +197,7 @@
       "mscorlib.dll": "sha256-ghlJNtzzYlKIliGPuf0A0Yu6dmLycSx3F9uyeddFb\/g=",
       "netstandard.dll": "sha256-qpOz\/RBwhlIYfaE2GDEmjiproxkvSf2b9GeqHxvH+lg=",
       "System.Private.CoreLib.dll": "sha256-sfzSZ3YKC2rpF77TVOKLuPgQag93QXr9U4AUc9d\/LKA=",
-      "fluent_number_field_bug_repro.dll": "sha256-bWmGZdSAhZp\/qIdYWaQQm4gWvimmpQA\/8TJSafrdbhM="
+      "fluent_number_field_bug_repro.dll": "sha256-NeVXbLrpGNpoQNbybYZ76+IYjl09\/\/Xk0\/+XvnvoPqU="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -205,7 +205,7 @@
       "_content\/Microsoft.Fast.Components.FluentUI\/Microsoft.Fast.Components.FluentUI.lib.module.js": "sha256-kvpFfM0tejhD5lLleaE2R9N8Xw5dS43ocIsZzkacClw="
     },
     "pdb": {
-      "fluent_number_field_bug_repro.pdb": "sha256-fIO3bnycJ81BSs8MENdx573GtHsz+ZZvfKL9\/7PVTVk="
+      "fluent_number_field_bug_repro.pdb": "sha256-C73wI6GyXVfZsG90NiSBpkIAv6InCHL9pES0Ow3g0bM="
     },
     "runtime": {
       "dotnet.6.0.5.ect37gg0ly.js": "sha256-783uOt0jgblQfP6Yz5TJeuW2xxtl6UHZQPngZtCz79U=",

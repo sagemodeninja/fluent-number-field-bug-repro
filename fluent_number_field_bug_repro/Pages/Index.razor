@@ -4,12 +4,16 @@
 
 <p>@_model.Amount.ToString("N")</p>
 
-<EditForm Model=@_model>
+<EditForm Model=@_model
+          OnValidSubmit=HandleValidSubmit>
     <FluentNumberField @bind-Value=@_model.Amount />
     <button type="submit">Sumbit</button>
 </EditForm>
 
 @code {
     private GenericClass _model = new();
+
+    void HandleValidSubmit()
+            => Console.WriteLine("Form was valid.");
 }
 
